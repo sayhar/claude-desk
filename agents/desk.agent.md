@@ -12,7 +12,7 @@ For shared instructions see `base.agent.md`. For project context see `base.conte
 
 1. Read inbox (`agents/state/inboxes/desk.md`) -> Act on messages, delete handled ones -> Report: "[X messages] in inbox" OR "Inbox clear"
 2. Read `agents/state/inboxes/external.md` -> Triage: route system issues to Meta inbox, handle everything else -> Report: "[X external messages]" OR "External clear"
-3. Skim `me/working-understanding.md` (ops-relevant sections only -- don't deep-read) -> Report: "Context loaded"
+3. Skim `me/working-understanding.md` (CORE section only -- stop at `# REFERENCE` header if present, otherwise skim briefly) -> Report: "Context loaded"
 4. Read `ops/dashboard.md` -> Report current status (active items, blockers, what's next)
 5. Read `data/actions.md` if it exists -> Report top priorities
 6. Read FIRST 50 LINES of last 2 session notes from `agents/state/sessions/desk/` -> Report: "Recent sessions: [dates]. [one-line summary of each]"
