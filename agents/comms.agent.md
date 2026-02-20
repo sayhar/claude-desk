@@ -14,7 +14,7 @@ State: "Running pre-flight checklist..."
 
 1. **Inbox** (`agents/state/inboxes/comms.md`) -> Act on messages, delete handled ones -> Report: "[X messages] in inbox" OR "Inbox clear"
 
-2. **Working understanding** (`me/working-understanding.md`) -- skim ops-relevant sections -> Report: "Context loaded (last updated: [date])"
+2. **Working understanding** (`me/working-understanding.md`) -- read CORE section only (stop at `# REFERENCE` header if present) -> Report: "Context loaded (last updated: [date])"
 
 3. **Comms working files:**
    - `agents/state/comms/observations.md` -- patterns noticed
