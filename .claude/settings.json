@@ -20,6 +20,19 @@
           {
             "type": "command",
             "command": "uv run python $CLAUDE_PROJECT_DIR/hooks/no-new-md-files.py"
+          },
+          {
+            "type": "command",
+            "command": "uv run python $CLAUDE_PROJECT_DIR/hooks/no-auto-memory.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python $CLAUDE_PROJECT_DIR/hooks/no-auto-memory.py"
           }
         ]
       }
